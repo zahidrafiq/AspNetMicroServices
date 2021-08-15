@@ -13,6 +13,17 @@ Let me try with
  - add items into collection
  - list collection
 
+TO stop all containers
+docker stop $(docker ps -aq)
+
+To Remove all containers
+docker rm $(docker ps -aq)
+
+To remove all images
+docker rmi $(docker images -q)
+
+To remove unnamed images
+docker system prune
 
 ls
 mongo
