@@ -7,6 +7,9 @@ services:
   
   basketdb:
     image: redis:alpine  #alpine is light version of redis 
+   
+  portainer:
+    image: portainer/portainer-ce
 
   catalog.api:
     image: ${DOCKER_REGISTRY-}catalogapi
@@ -23,3 +26,4 @@ services:
 #defined manually
 volumes:
   mongo_data:
+  portainer_data:
