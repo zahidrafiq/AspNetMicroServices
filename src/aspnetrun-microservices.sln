@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{A3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{8455DE2B-6AA0-48C4-BC5F-B5B98419A2F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{50ECF752-4C57-49C2-99BC-ADAADD87C668}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,14 @@ Global
 		{8455DE2B-6AA0-48C4-BC5F-B5B98419A2F6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8455DE2B-6AA0-48C4-BC5F-B5B98419A2F6}.Release|x64.ActiveCfg = Release|Any CPU
 		{8455DE2B-6AA0-48C4-BC5F-B5B98419A2F6}.Release|x64.Build.0 = Release|Any CPU
+		{50ECF752-4C57-49C2-99BC-ADAADD87C668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50ECF752-4C57-49C2-99BC-ADAADD87C668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50ECF752-4C57-49C2-99BC-ADAADD87C668}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{50ECF752-4C57-49C2-99BC-ADAADD87C668}.Debug|x64.Build.0 = Debug|Any CPU
+		{50ECF752-4C57-49C2-99BC-ADAADD87C668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50ECF752-4C57-49C2-99BC-ADAADD87C668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50ECF752-4C57-49C2-99BC-ADAADD87C668}.Release|x64.ActiveCfg = Release|Any CPU
+		{50ECF752-4C57-49C2-99BC-ADAADD87C668}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +80,7 @@ Global
 		{5996AB54-C3D4-4108-AF96-6C10DADFB8FC} = {084A4F2A-6AAA-4D35-B510-F854B85261E6}
 		{A3BF6965-F8DA-4976-A269-4F08DF3BF01D} = {5CC3F092-2A98-47BB-B513-0A0174951B61}
 		{8455DE2B-6AA0-48C4-BC5F-B5B98419A2F6} = {A3BF6965-F8DA-4976-A269-4F08DF3BF01D}
+		{50ECF752-4C57-49C2-99BC-ADAADD87C668} = {A3BF6965-F8DA-4976-A269-4F08DF3BF01D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2A73C5C-8EBA-4AE0-AAB9-B82ABA5BAAF9}
