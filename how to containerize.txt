@@ -1,0 +1,6 @@
+1: right click on project -> Add -> container and orchestrain -> decker container -> Linux OS
+By this Visula studio will update docker-compose.yml and docker-compose.override.yml file
+
+2: update docker.compose.override.yml file
+   i) set container name
+  ii) Override appsettings config   
